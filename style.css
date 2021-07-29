@@ -1,3 +1,6 @@
+html,body{
+    overflow-x: hidden;
+}
 /* ----------------------
 ----------header style--------- 
 --------------------------*/
@@ -13,8 +16,10 @@ h1{
 .primary-btn{
     background-color: #E76F51;
     color:#fff;
-    /* font-weight: bold; */
     transition: .3s;
+}
+.primary-color{
+    color:#E76F51;
 }
 .primary-btn:hover{
     background-color: #fa8d72;
@@ -31,4 +36,92 @@ h1{
 .banner-left p{
     color:#E0E0E0;
     font-size: 17px;
+}
+/* --------------------
+-------featured section-------
+----------------------- */
+.section-title p{
+    font-weight: bold;
+    position:relative
+}
+.section-title p::after {
+    content: "";
+    width: 65px;
+    height: 2px;
+    background: #E76F51;
+    display: block;
+    position: absolute;
+    top: 30px;
+    left: calc(50% - 30px);
+}
+.gray-scale{
+    filter: grayscale(100%);
+}
+.readmore-btn{
+    border: 2px solid #E76F51;
+    padding: 14px 37px;
+    color:#E76F51;
+    font-size: 18px;
+    font-weight: 500;
+    transition:.3s;
+}
+.readmore-btn:hover{
+    background-color: #E76F51;
+    color: #fff;
+}
+/* --------------------------------
+----------client section---------- 
+----------------------------------*/
+.client-says{
+    font-size: 18px;
+    font-weight: normal;
+}
+#client a,p{
+    font-weight: bold;
+}
+.review-icons i{
+    font-size: 18px;
+}
+/* ------------------------------
+--------------faq section------------
+---------------------------------- */
+.accordian-box {
+    border: 1px solid #0065fc45;
+    border-radius: 5px;
+    margin-top: 30px;
+}
+.accordian-header button.accoridian-button{
+    border: none;
+    background:none;
+    color: #fff;
+
+}
+.accordion-button{
+    box-shadow:none;
+    font-weight: 600;
+    font-size:18px;
+}
+.accordion-button.collapsed{
+    border: 0;
+    box-shadow:none;
+}
+.accordion-button:not(.collapsed){
+    color:black;
+    background-color: #fff;
+    border:0;
+    box-shadow:none;
+}
+/* -------------------------
+-------categories section--------
+---------------------------- */
+a.nav-link.tablink {
+    background: #919191;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left:10px;
+    margin-top:10px;
+}
+a.nav-link.tablink.active{
+    background-color: #E76F51;
 }
