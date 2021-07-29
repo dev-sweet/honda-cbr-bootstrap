@@ -126,6 +126,9 @@ a.nav-link.tablink.active{
     background-color: #E76F51;
 }
 /* brand section */
-/* .brand{
-    height:160px;
-} */
+#brand{
+    background-color: #fafafaa1;
+}
+.brand-bg{
+    background-color: #fff;
+}
