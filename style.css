@@ -132,3 +132,25 @@ a.nav-link.tablink.active{
 .brand-bg{
     background-color: #fff;
 }
+
+/* footer design */
+#footer{
+    background-color: #0B0D17;
+}
+.footer-img img {
+    box-shadow: inset 0px 0px 0px 10px grey;
+    border-radius: 5px;
+}
+
+#footer a{
+    font-size: 17px;
+    color:#e3e3e3;
+    transition:.3s;
+}
+#footer a:hover{
+    color: #E76F51;
+}
+.footer-text{
+    color:#e3e3e3;
+    font-weight: normal;
+}
